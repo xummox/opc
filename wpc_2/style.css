@@ -13,6 +13,24 @@ main {
     margin-right: auto;
 }
 
+h2 {
+    animation: trans 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes trans{
+    from {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
 a {
     color: rgb(0, 0, 0);
 }
