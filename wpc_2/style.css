@@ -14,13 +14,13 @@ main {
 }
 
 a {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
-a :hover {
+a:hover {
     text-decoration: none;
     color: coral;
-}
+  }
 
 .first {
 
