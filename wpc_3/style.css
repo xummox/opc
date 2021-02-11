@@ -1,0 +1,66 @@
+html {
+    background-image: url(/image/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    border: solid;
+    border-width: thin;
+    border-radius: 5px; 
+    margin-top: 300px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: Housttely Signature;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-top: 0%;
+    margin-bottom:0%;
+    padding-bottom:0%;
+    border-bottom: 0%;
+
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+    text-align: center;
+    margin-top: 100px;
+}
+
+a {
+    color: rgb(195, 205, 50);
+}
+
+.one {
+    padding-top: 30px;
+}
+
+.two {
+    margin-top: 120px;
+}
+
+.three {
+    margin-top: 120px;
+}                         
+
+.four {
+    margin-top: 120px;
+    padding-bottom: 30px;
+}
