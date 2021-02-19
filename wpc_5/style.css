@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,600;1,200&display=swap');
+
+body {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    max-width: 50%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    margin: auto;
+}
+
+@media only screen and (min-width:0px) {
+    html {
+        margin-bottom: 200px;
+        background-color: #b6cec7;
+    }
+    .small {
+        background-color:#b6cec7;
+        color: teal;
+    }
+
+    .medium {
+        display: none;
+    }
+
+    .large {
+        display: none;
+    }
+
+    .intro {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:767px) {
+    html {
+        margin-bottom: 200px;
+        background-color:  #86A3C3;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .medium {
+        background-color:#86A3C3;
+        color: #1f3b58;
+        display: block;
+    }
+
+    .large {
+        display: none;
+    }
+
+    .intro {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    html {
+        margin-bottom: 200px;
+        background-color:  #7268A6;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .medium {
+        display:none;
+    }
+
+    .large {
+        background-color:#7268A6;
+        color: #1a104d;
+        display: block;
+    }
+    .intro {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    html{
+        background-color: blanchedalmond;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .medium {
+        display:none;
+    }
+
+    .large {
+        display: none;
+    }
+
+    .intro {
+        background-color:blanchedalmond;
+        color: teal;
+        display: block;
+    }
+     /* code below was origninally from Red Stapler*/
+        #container {
+            padding-top: 200px;
+            color:teal;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size:36px;
+            font-weight:bold;  
+            width:100%;
+            bottom:45%;
+            display:block;
+        }
+          
+          #flip {
+            height:50px;
+            overflow:hidden;
+          }
+          
+          #flip > div > div {
+            color:#fff;
+            padding:4px 12px;
+            height:45px;
+            margin-bottom:45px;
+            display:inline-block;
+          }
+          
+          #flip div:first-child {
+            animation: show 3.5s linear infinite;
+          }
+          
+          #flip div div {
+            background: #86A3C3;
+          }
+          #flip div:first-child div {
+            background:#b6cec7;
+          }
+          #flip div:last-child div {
+            background:#7268A6;
+          }
+          
+          @keyframes show {
+            0% {margin-top:-270px;}
+            5% {margin-top:-180px;}
+            33% {margin-top:-180px;}
+            38% {margin-top:-90px;}
+            66% {margin-top:-90px;}
+            71% {margin-top:0px;}
+            99.99% {margin-top:0px;}
+            100% {margin-top:-270px;}
+          }
+          
+}
