@@ -2,9 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Oi&family=Rock+Salt&family=Stick&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Oi&family=Rock+Salt&family=Stick&family=Ubuntu:wght@300;400;500&display=swap');
 body {
-     margin-left: 250px;
-     margin-right: 250px;
-     
+     width: 60%;
+     margin: auto;
  }
  
  h1 { 
@@ -65,7 +64,7 @@ h3 {
  }
 
  .box4 {
-    flex: 3;
+    flex: 100%;
     min-height: 100px;
  }
 
@@ -110,7 +109,7 @@ h3 {
  }
 
  .box13 {
-    flex: 1;
+    flex: 2;
     min-height: 100px;
  }
 
@@ -136,13 +135,13 @@ h3 {
 
  .box18 {
     
-    flex: 1;
+    flex: 2;
     min-height: 100px;
  }
 
  .box19 {
     flex: 1;
-    min-height: 300px;
+    min-height: 100px;
     padding-left: 50px;
     padding-right: 50px;
  }
@@ -151,7 +150,7 @@ h3 {
     padding-left: 50px;
     padding-right: 50px;
     flex: 1;
-    min-height: 300px;
+    min-height: 100px;
  }
 
  footer {
