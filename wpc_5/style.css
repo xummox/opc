@@ -155,8 +155,9 @@ h3 {
  }
 
  footer {
-     font-size: 14px;
+     font-size: 13px;
      text-align: center;
      color: rgb(238, 112, 9);
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: lighter;
  }
- 
