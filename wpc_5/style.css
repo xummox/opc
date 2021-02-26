@@ -1,174 +1,162 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,600;1,200&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Oi&family=Rock+Salt&family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Oi&family=Rock+Salt&family=Stick&family=Ubuntu:wght@300;400;500&display=swap');
 body {
-    margin: auto;
+     margin-left: 250px;
+     margin-right: 250px;
+     
+ }
+ 
+ h1 { 
+
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(238, 112, 9);
     text-align: center;
 }
 
-img {
-    max-width: 100%;
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(238, 112, 9);
+
 }
 
-h1 {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 600;
-}
+ .container {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    font-size: 6px;
+    font-weight:lighter;
+ }
+ 
+ .box {
+    width: 35%;
+    border: solid rgb(238, 112, 9) thin;
+    border-radius: 10px;
+    color: rgb(238, 112, 9);
+    font-size: 2em;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ } 
 
-h2 {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 300;
-}
+ .box1 {
+    min-height: 100px;
+    flex: 2;
+ }
 
-p {
-    max-width: 50%;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    margin: auto;
-}
+ .box2 {
+    min-height: 100px;
+    flex: 2;
+ }
 
-@media only screen and (min-width:0px) {
-    html {
-        margin-bottom: 200px;
-        background-color: #b6cec7;
-    }
-    .small {
-        background-color:#b6cec7;
-        color: teal;
-    }
+ .box3 {
+    min-height: 100px;
+    flex: 2;
+ }
 
-    .medium {
-        display: none;
-    }
+ .box4 {
+    flex: 3;
+    min-height: 100px;
+ }
 
-    .large {
-        display: none;
-    }
+ .box5 {
+    min-height: 100px;
+    flex: 2;
+ }
 
-    .intro {
-        display: none;
-    }
-}
+ .box6{
+    min-height: 100px;
+    flex: 2;
+ }
 
-@media only screen and (min-width:767px) {
-    html {
-        margin-bottom: 200px;
-        background-color:  #86A3C3;
-    }
+ .box7 {
+    min-height: 100px;
+    flex: 1;
+ }
 
-    .small {
-        display: none;
-    }
+ .box8 {
+    flex: 2;
+    min-height: 100px;
+ }
+ 
+ .box9 {
+    flex: 2;
+    min-height: 100px;
+ }
 
-    .medium {
-        background-color:#86A3C3;
-        color: #1f3b58;
-        display: block;
-    }
+ .box10 {
+    flex: 1;
+    min-height: 100px;
+ }
 
-    .large {
-        display: none;
-    }
+ .box11 {
+    flex: 1;
+    min-height: 100px;
+ }
 
-    .intro {
-        display: none;
-    }
-}
+ .box12 {
+    flex: 1;
+    min-height: 100px;
+ }
 
-@media only screen and (min-width:1024px) {
-    html {
-        margin-bottom: 200px;
-        background-color:  #7268A6;
-    }
+ .box13 {
+    flex: 1;
+    min-height: 100px;
+ }
 
-    .small {
-        display: none;
-    }
+ .box14 {
+    flex: 1;
+    min-height: 100px;
+ }
 
-    .medium {
-        display:none;
-    }
+ .box15 {
+    flex: 1;
+    min-height: 100px;
+ }
 
-    .large {
-        background-color:#7268A6;
-        color: #1a104d;
-        display: block;
-    }
-    .intro {
-        display: none;
-    }
-}
+ .box16 {
+    flex: 1;
+    min-height: 100px;
+ }
 
-@media only screen and (min-width:1200px) {
-    html{
-        background-color: blanchedalmond;
-    }
+ .box17 {
+    flex: 1;
+    min-height: 100px;
+ }
 
-    .small {
-        display: none;
-    }
+ .box18 {
+    
+    flex: 1;
+    min-height: 100px;
+ }
 
-    .medium {
-        display:none;
-    }
+ .box19 {
+    flex: 1;
+    min-height: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
 
-    .large {
-        display: none;
-    }
+ .box20 {
+    padding-left: 50px;
+    padding-right: 50px;
+    flex: 1;
+    min-height: 300px;
+ }
 
-    .intro {
-        background-color:blanchedalmond;
-        color: teal;
-        display: block;
-    }
-     /* code below was origninally from Red Stapler*/
-        #container {
-            padding-top: 200px;
-            color:teal;
-            font-family: 'Montserrat Alternates', sans-serif;
-            font-size:36px;
-            font-weight:bold;  
-            width:100%;
-            bottom:45%;
-            display:block;
-        }
-          
-          #flip {
-            height:50px;
-            overflow:hidden;
-          }
-          
-          #flip > div > div {
-            color:#fff;
-            padding:4px 12px;
-            height:45px;
-            margin-bottom:45px;
-            display:inline-block;
-          }
-          
-          #flip div:first-child {
-            animation: show 3.5s linear infinite;
-          }
-          
-          #flip div div {
-            background: #86A3C3;
-          }
-          #flip div:first-child div {
-            background:#b6cec7;
-          }
-          #flip div:last-child div {
-            background:#7268A6;
-          }
-          
-          @keyframes show {
-            0% {margin-top:-270px;}
-            5% {margin-top:-180px;}
-            33% {margin-top:-180px;}
-            38% {margin-top:-90px;}
-            66% {margin-top:-90px;}
-            71% {margin-top:0px;}
-            99.99% {margin-top:0px;}
-            100% {margin-top:-270px;}
-          }
-          
-}
+ footer {
+     font-size: 14px;
+     text-align: center;
+     color: rgb(238, 112, 9);
+ }
+ 
