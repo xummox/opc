@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Cinzel:wght@700&display=swap');
+
+html {
+    background-color: rgb(222, 202, 135);
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+}
+
+p {
+    font-family: 'Cardo', serif;
+}
