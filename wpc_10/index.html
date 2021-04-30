@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+    <meta name="author" content="harrnish @codegrid">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
+</head>
+
+<body id="js-scroll">
+    <div class="wrapper">
+        <!-- project section -->
+        <div class="project__container" data-scroll-section>
+
+            <div class="project__container-title" data-scroll>
+                <h2 class="anime-js-title">Collection of Feelings</h2>
+            </div>
+            <div class="project__container-subtitle" data-scroll>
+                <p>Moxin Xu</p>
+            </div>
+
+            <div class="project__container-images">
+                <div class="project__image project__image-one" data-scroll data-scroll-speed="1">
+                </div>
+                <div class="project__image project__image-two" data-scroll data-scroll-speed="4">
+                </div>
+                <div class="project__image project__image-three" data-scrol data-scroll-speed="2">
+                </div>
+                <div class="project__image project__image-four" data-scroll data-scroll-speed="4">
+                </div>
+            </div>
+
+            <div class="project__container-description" data-scroll>
+                <p>In this collabration project, I've been working with Anaïs's airtable. Thinking about how her location affects her mood, I decided to categorize her feelings by the "two places": home and away. I designed the users to experience a really long scroll to feel the distance between the two places. </p>
+            </div>
+
+            <div class="project__container-process" data-scroll>
+                <h2>Process</h2>
+               
+                <img src="../image/figma.png" alt="figma" style="width: 30%;">
+                <p>During the process, I wasn't have the red line at the first place. But to have the red line not only help to connect the two place, but also guide the users to scoll down. It was also fun to narrow down and specific a topci from the original airtable.</p>
+            </div>
+
+            
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>
+    
+        var textWrapper = document.querySelector('.anime-js-title');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+        anime.timeline()
+            .add({
+                targets: '.anime-js-title .letter',
+                translateY: [60, 0],
+                translateZ: 0,
+                opacity: [0, 1],
+                easing: "easeOutExpo",
+                duration: 1200,
+                delay: (el, i) => 600 + 30 * i
+            });
+
+        TweenMax.from(".project__container-subtitle", 2, {
+            y: 10,
+            opacity: 0,
+            ease: Expo.easeInOut
+        });
+
+    </script>
+</body>
+
+</html> 
